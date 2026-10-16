@@ -1,35 +1,35 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  wokwi_id: "478037038902554625" # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title: "Thomas' first Wokwi design" # Project title
+  author: "Thomas Fernandes Araujo" # Your name
+  discord: "marrabanido" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description: "A combinational logic circuit implementing AND, OR, XOR, and NAND
+    gates with independent inputs and outputs." # One line description of what your project does
+  language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
-  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
+  tiles: "1x1" # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "AND_A"
+  ui[1]: "AND_B"
+  ui[2]: "OR_A"
+  ui[3]: "OR_B"
+  ui[4]: "XOR_A"
+  ui[5]: "XOR_B"
+  ui[6]: "NAND_A"
+  ui[7]: "NAND_B"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "AND_OUT"
+  uo[1]: "OR_OUT"
+  uo[2]: "XOR_OUT"
+  uo[3]: "NAND_OUT"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
